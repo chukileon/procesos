@@ -4,36 +4,47 @@
 }
 
 body{
-	font-family: 'Press Start 2P', cursive;
-	font-weight:400;
-	background:rgba(255,255,255,1);
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	background-image:url('../images/fondopatron.jpg');
 	color:rgba(0,0,0,1);
 }
 
-h1, h2, h3{
-	font-family: 'Press Start 2P', cursive;
-	font-family: 'Revalia', cursive;
+h1, h2, h3,{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
+	text-align:center; font-weight:700;
+}
+
+h4{
+	font-family: 'Concert One', cursive;
+	text-align:center; font-weight:1000; font-size: 12;
+}
+
+h6{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-align:center; font-weight:700;
 }
 
 h4, h5, h6{font-weight:700;}
 
-h1{letter-spacing:0.1em; color:rgba(255,255,255,0.75);}
+h1{letter-spacing:0.3em; color:rgba(0,0,0,0.75);}
 
 h2{letter-spacing:0.02em; color:rgba(255,255,255,0.5); padding:0.2em 0; }
 
 h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
 
-#contenido{width:98%; margin:1% auto;}
+#contenido{width:98%; margin:4% auto;}
 
 header{
 	width:98%;
-	top:30%;
+	top:64%;
 	position: absolute;
 	text-align:center;
 	z-index:9;
-	color:white;
-	background:orange;
+	color:black;
+	background:white;
 	}
 
 header svg{height: 150px; width:auto;}
@@ -84,19 +95,19 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(241,0,0,1);
 	background-image:url('../images/dupla-primera.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 2% 95% 5% 2%;}
 
 .primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
 
 .primera p{padding: 2% 40% 2% 2%;}
 
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal; color: white;}
 
 .segunda{
 	min-height:300px;
@@ -108,7 +119,7 @@ video{
 	background-size:auto 100%;
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.segunda h4{padding: 2% 2% 1% 72%;}
 
 .segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
 
@@ -178,7 +189,7 @@ video{
 }
 
 .item h4{
-	font-size:1em;
+	font-size:3em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
 }
