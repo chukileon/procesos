@@ -10,14 +10,23 @@ body{
 	color:rgba(0,0,0,1);
 }
 
-h1, h2, h3,{
-	font-family: 'Lato', sans-serif;
-	font-family: 'Lato', sans-serif;
-	text-align:center; font-weight:700;
+h1{
+	font-family: 'Baloo Paaji', cursive;
+	text-align:center; font-weight:10; font-size: 400%;
+}
+
+h2{
+	font-family: 'Baloo Paaji', cursive;
+	text-align:center; font-weight:200; font-size: 12;
+}
+
+h3{
+	font-family: 'Baloo Paaji', cursive;
+	text-align:center; font-weight:1000; font-size: 12;
 }
 
 h4{
-	font-family: 'Concert One', cursive;
+	font-family: 'Comfortaa', cursive;
 	text-align:center; font-weight:1000; font-size: 12;
 }
 
@@ -29,9 +38,9 @@ h6{
 
 h4, h5, h6{font-weight:700;}
 
-h1{letter-spacing:0.3em; color:rgba(0,0,0,0.75);}
+h1{letter-spacing:0.2em; color:rgba(0,0,0,100);}
 
-h2{letter-spacing:0.02em; color:rgba(255,255,255,0.5); padding:0.2em 0; }
+h2{letter-spacing:0.02em; color:rgba(255,255,255,100); padding:0.2em 0; }
 
 h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
 
@@ -39,15 +48,16 @@ h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
 
 header{
 	width:98%;
-	top:64%;
+	top:60%;
 	position: absolute;
 	text-align:center;
 	z-index:9;
-	color:black;
-	background:white;
+	color:white;
+	background:rgba(255,255,255);
+	opacity: 
 	}
 
-header svg{height: 150px; width:auto;}
+header svg{height: 70px; width:auto;color:rgba(255,255,255,0);}
 
 @media screen and (max-width: 980px){
 	/*En caso que la pantalla no alcance el ancho de 980px… */
@@ -65,7 +75,8 @@ header svg{height: 150px; width:auto;}
 
 video{
 	width:100%;
-	height:auto;
+	height:inherit;
+	position:0;
 	}
 
 #somos{
@@ -78,7 +89,7 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:white;
 	}
 
 .dupla a{
@@ -103,7 +114,7 @@ video{
 }
 .primera h4{padding: 2% 95% 5% 2%;}
 
-.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+.primera h5{padding: 1% 40% 2% 2%; margin-bottom:3.5em; letter-spacing:0.1em;}
 
 .primera p{padding: 2% 40% 2% 2%;}
 
@@ -121,7 +132,7 @@ video{
 
 .segunda h4{padding: 2% 2% 1% 72%;}
 
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:3.5em; letter-spacing:0.1em;}
 
 .segunda p{padding: 2% 2% 2% 40%;}
 
@@ -192,6 +203,7 @@ video{
 	font-size:3em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
+	text-decoration:none;
 }
 
 .item p{
